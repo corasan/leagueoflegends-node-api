@@ -1,0 +1,33 @@
+{
+  "name": "leagueoflegends-sdk",
+  "version": "1.0.0",
+  "description": "League of Legends unofficial SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corasan/leagueoflegends-sdk.git"
+  },
+  "keywords": [
+    "league",
+    "of",
+    "legends",
+    "sdk",
+    "javascript",
+    "api",
+    "development",
+    "lol"
+  ],
+  "author": "Henry Paulino <henrypl360@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corasan/leagueoflegends-sdk/issues"
+  },
+  "homepage": "https://github.com/corasan/leagueoflegends-sdk#readme",
+  "dependencies": {
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
+}
