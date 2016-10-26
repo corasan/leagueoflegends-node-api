@@ -30,3 +30,10 @@ classRef.getRunes = function(summonerIds) {
     json: true
   });
 }
+
+classRef.summonerName = function(summonerIds) {
+  return request({
+    uri: `https://${this.region}.${summonerURL}/${this.region}/v1.4/summoner/${summonerIds}/name?api_key=${this.api_key}`,
+    json: true
+  });
+}

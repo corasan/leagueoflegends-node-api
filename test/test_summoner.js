@@ -60,4 +60,12 @@ describe('Summoner', function() {
       });
     });
   });
+
+  describe('#summonerName', function() {
+    it('should get the summoner masteries', function() {
+      return lol.summonerName('48641392').then((result) => {
+        assert.equal(result['48641392'], 'SHP CoraSan');
+      });
+    });
+  });
 });
