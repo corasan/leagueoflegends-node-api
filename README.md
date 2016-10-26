@@ -1,11 +1,36 @@
 # League of Legends API
-League of Legends unofficial API using the official [Riot API](https://developer.riotgames.com/)
+League of Legends Node.js unofficial API using the official [Riot API](https://developer.riotgames.com/)
 
 ## Installation
 `npm i --save leagueoflegends-api`
 
 ## Usage
-Not available yet... Still working on it!
+Require the package into your project
+```javascript
+const LeagueofLegends = require('leagueoflegends-api');
+// or with ES6
+import LeagueofLegends from 'leagueoflegends-api';
+```
+
+Create a new instance of the API with your `API_KEY` and target region
+```javascript
+const lol = new LeagueofLegends(API_KEY, 'na');
+
+lol.findSummoner('shp corasan').then((result) => console.log(result));
+```
+You will get an object like this:
+```json
+{
+  "shpcorasan": {
+    "id": 48641392,
+    "name": "SHP CoraSan",
+    "profileIconId": 1301,
+    "revisionDate": 1477504931000,
+    "summonerLevel": 30
+  }
+}
+```
+**Note:** All functions return a `Promise`.
 
 ## Progress
 This is what I have so far (version 0.8.0):
