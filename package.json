@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive",
-    "test-stats": "mocha --recursive -g Stats"
+    "test-stats": "mocha --recursive -g Stats",
+    "test-summoner": "mocha --recursive -g Summoner"
   },
   "repository": {
     "type": "git",
