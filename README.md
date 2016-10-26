@@ -17,7 +17,7 @@ This is what I have so far (version 0.6.0):
   - [x] Get summary of specified summoner stats - `statsSummary`
 
 Working on:
-- [] **matchlist-v2.2**
-  - [] Retrieve match list by summoner id
+- [ ] **matchlist-v2.2**
+  - [ ] Retrieve match list by summoner id
 
-- [] **league-v2.5**
+- [ ] **league-v2.5**
