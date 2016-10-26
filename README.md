@@ -5,7 +5,7 @@ League of Legends unofficial SDK.
 Not available yet... Still working on it!
 
 ## Progress
-This is what I have so far (version 0.6.3):
+This is what I have so far (version 0.6.0):
 - [x] *summoner-v1.4*
   - [x] Find a summoner using the summoner name - `findSummoner`
   - [x] Find a summoner using the id - `summonerById`
