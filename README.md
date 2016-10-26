@@ -15,3 +15,9 @@ This is what I have so far (version 0.6.0):
 - [x] **stats-v1.3**
   - [x] Get ranked stats of specified summoner using the summoner id - `statsRanked`
   - [x] Get summary of specified summoner stats - `statsSummary`
+
+Working on:
+- [] **matchlist-v2.2**
+  - [] Retrieve match list by summoner id
+
+- [] **league-v2.5**
