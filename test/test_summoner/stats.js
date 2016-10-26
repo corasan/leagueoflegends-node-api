@@ -14,4 +14,12 @@ describe('Stats', function() {
       });
     });
   });
+
+  describe('#statsRanked', function() {
+    it('should get a summary of the summoner stats', function() {
+      return lol.statsSummary('48641392').then((result) => {
+        assert(result['playerStatSummaries'].length, !0);
+      })
+    });
+  });
 });

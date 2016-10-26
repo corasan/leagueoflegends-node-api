@@ -9,3 +9,10 @@ classRef.statsRanked = function(summonerId, season) {
     json: true
   });
 }
+
+classRef.statsSummary = function(summonerId, season) {
+  return request({
+    uri: `https://${this.region}.${summonerURL}/${this.region}/v1.3/stats/by-summoner/${summonerId}/summary?api_key=${this.api_key}`,
+    json: true
+  });
+}
