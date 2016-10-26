@@ -1,3 +1,5 @@
+'use strict';
+
 require('dotenv').config();
 
 const assert = require('assert');
@@ -18,7 +20,7 @@ describe('Stats', function() {
   describe('#statsRanked', function() {
     it('should get a summary of the summoner stats', function() {
       return lol.statsSummary('48641392').then((result) => {
-        assert(result['playerStatSummaries'].length, !0);
+        assert.notEqual(result['playerStatSummaries'].length, 0);
       })
     });
   });

@@ -1,3 +1,5 @@
+'use strict';
+
 require('dotenv').config();
 
 const assert = require('assert');
@@ -10,7 +12,7 @@ describe('Summoner', function() {
   describe('#findSummoner', function() {
     it('should find a summoner by name', function() {
       return lol.findSummoner('shp corasan').then((result) => {
-        var key = Object.keys(result)[0];
+        let key = Object.keys(result)[0];
         assert.equal(result[key].name, 'SHP CoraSan');
       });
     });
@@ -19,7 +21,7 @@ describe('Summoner', function() {
   describe('#findSummoner', function() {
     it('should find multiple summoners by a list of names', function() {
       return lol.findSummoner(['shp corasan','shp sogeking']).then((result) => {
-        var summoners = Object.keys(result);
+        let summoners = Object.keys(result);
         assert.equal(summoners.length, 2);
       });
     });
@@ -28,7 +30,7 @@ describe('Summoner', function() {
   describe('#summonerById', function() {
     it('should find a summoner by ID', function() {
       return lol.summonerById('48641392').then((result) => {
-        var key = Object.keys(result)[0];
+        let key = Object.keys(result)[0];
         assert.equal(result[key].name, 'SHP CoraSan');
       });
     });
@@ -37,7 +39,7 @@ describe('Summoner', function() {
   describe('#summonerById', function() {
     it('should find multiple summoners by a list of IDs', function() {
       return lol.summonerById(['48641392','36475861']).then((result) => {
-        var summoners = Object.keys(result);
+        let summoners = Object.keys(result);
         assert.equal(summoners.length, 2);
       });
     });
@@ -46,7 +48,7 @@ describe('Summoner', function() {
   describe('#getMasteries', function() {
     it('should get the summoner masteries', function() {
       return lol.getMasteries('48641392').then((result) => {
-        var key = Object.keys(result)[0];
+        let key = Object.keys(result)[0];
         assert.equal(result[key].summonerId, '48641392');
       });
     });
@@ -55,7 +57,7 @@ describe('Summoner', function() {
   describe('#getRunes', function() {
     it('should get the summoner masteries', function() {
       return lol.getRunes('48641392').then((result) => {
-        var key = Object.keys(result)[0];
+        let key = Object.keys(result)[0];
         assert.equal(result[key].summonerId, '48641392');
       });
     });

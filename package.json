@@ -1,12 +1,13 @@
 {
   "name": "leagueoflegends-sdk",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "League of Legends unofficial SDK",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive",
     "test-stats": "mocha --recursive -g Stats",
-    "test-summoner": "mocha --recursive -g Summoner"
+    "test-summoner": "mocha --recursive -g Summoner",
+    "test-matches": "mocha --recursive -g Match"
   },
   "repository": {
     "type": "git",
