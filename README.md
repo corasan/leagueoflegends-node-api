@@ -5,7 +5,7 @@ League of Legends unofficial SDK using the official [Riot API](https://developer
 Not available yet... Still working on it!
 
 ## Progress
-This is what I have so far (version 0.7.1):
+This is what I have so far (version 0.8.0):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner`
   - [x] Find a summoner using the id - `summonerById`
