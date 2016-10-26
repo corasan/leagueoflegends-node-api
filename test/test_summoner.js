@@ -51,4 +51,13 @@ describe('Summoner', function() {
       });
     });
   });
+
+  describe('#getRunes', function() {
+    it('should get the summoner masteries', function() {
+      return lol.getRunes('48641392').then((result) => {
+        var key = Object.keys(result)[0];
+        assert.equal(result[key].summonerId, '48641392');
+      });
+    });
+  });
 });
