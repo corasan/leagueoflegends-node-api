@@ -1,5 +1,8 @@
-# League of Legends SDK
-League of Legends unofficial SDK using the official [Riot API](https://developer.riotgames.com/)
+# League of Legends API
+League of Legends unofficial API using the official [Riot API](https://developer.riotgames.com/)
+
+## Installation
+`npm i --save leagueoflegends-api`
 
 ## Usage
 Not available yet... Still working on it!
