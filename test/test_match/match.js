@@ -16,4 +16,13 @@ describe('Match', function() {
       });
     });
   });
+
+  describe('#matchList', function() {
+    it('should return a list of the summoner match history using optional queries', function() {
+      return lol.matchList('48641392', {championIds: ['61'], rankedQueues: ['TEAM_BUILDER_DRAFT_RANKED_5x5']})
+      .then((result) => {
+        assert.notEqual(result['matches'].length, 0);
+      });
+    });
+  });
 });

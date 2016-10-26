@@ -5,7 +5,7 @@ League of Legends unofficial SDK using the official [Riot API](https://developer
 Not available yet... Still working on it!
 
 ## Progress
-This is what I have so far (version 0.6.0):
+This is what I have so far (version 0.7.1):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner`
   - [x] Find a summoner using the id - `summonerById`
@@ -16,8 +16,9 @@ This is what I have so far (version 0.6.0):
   - [x] Get ranked stats of specified summoner using the summoner id - `statsRanked`
   - [x] Get summary of specified summoner stats - `statsSummary`
 
+- [x] **matchlist-v2.2**
+  - [x] Retrieve match list by summoner id - `matchList`
+
 Working on:
-- [ ] **matchlist-v2.2**
-  - [ ] Retrieve match list by summoner id
 
 - [ ] **league-v2.5**
