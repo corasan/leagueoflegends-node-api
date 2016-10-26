@@ -1,6 +1,6 @@
 {
   "name": "leagueoflegends-sdk",
-  "version": "0.6.3",
+  "version": "0.6.0",
   "description": "League of Legends unofficial SDK",
   "main": "index.js",
   "scripts": {
