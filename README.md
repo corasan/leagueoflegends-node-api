@@ -1,5 +1,5 @@
 # League of Legends SDK
-League of Legends unofficial SDK.
+League of Legends unofficial SDK using the official [Riot API](https://developer.riotgames.com/)
 
 ## Usage
 Not available yet... Still working on it!
