@@ -1,17 +1,17 @@
 const request = require('request-promise');
 const Lol = require('./main');
-const summonerURL = 'api.pvp.net/api/lol/na/v1.4/summoner/';
+const summonerURL = 'api.pvp.net/api/lol';
 
-Lol.prototype.findSummoner = function(summonerNames, callback) {
+Lol.prototype.findSummoner = function(summonerNames) {
   return request({
-    uri: `https://${this.region}.${summonerURL}by-name/${summonerNames}?api_key=${this.api_key}`,
+    uri: `https://${this.region}.${summonerURL}/${this.region}/v1.4/summoner/by-name/${summonerNames}?api_key=${this.api_key}`,
     json: true
   });
 }
 
 Lol.prototype.summonerById = function(summonerIds) {
-  request({
-    uri: `https://${this.region}${summonerURL}/${summonerIds}$`,
+  return request({
+    uri: `https://${this.region}.${summonerURL}/${this.region}/v1.4/summoner/${summonerIds}?api_key=${this.api_key}`,
     json: true
   });
 }
