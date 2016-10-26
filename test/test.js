@@ -43,9 +43,12 @@ describe('Summoner', function() {
     });
   });
 
-  // describe('#getMasteries', function() {
-  //   it('should get the summoner masteries', function() {
-  //     lol.getMasteries('48641392', (result))
-  //   });
-  // });
+  describe('#getMasteries', function() {
+    it('should get the summoner masteries', function() {
+      return lol.getMasteries('48641392').then((result) => {
+        var key = Object.keys(result)[0];
+        assert.equal(result[key].summonerId, '48641392');
+      });
+    });
+  });
 });
