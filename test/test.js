@@ -16,9 +16,12 @@ describe('Summoner', function() {
     });
   });
 
-  // describe('#summonerById', function() {
-  //   it('should find a summoner by ID', function() {
-  //     lol.summonerById('48641392', (result) => assert.equal(result))
-  //   })
-  // })
+  describe('#summonerById', function() {
+    it('should find a summoner by ID', function() {
+      lol.summonerById('48641392', (result) => {
+        var key = Object.keys(result)[0];
+        assert.equal(result[key].id, '48641392');
+      });
+    })
+  })
 });
