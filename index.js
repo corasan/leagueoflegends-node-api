@@ -5,4 +5,5 @@ const LeagueofLegends = require('./src/main');
 const lol = new LeagueofLegends(api_key, 'na');
 require('./src/Summoner');
 
+// lol.findSummoner('shp corasan').then((result) => console.log(result));
 module.exports = LeagueofLegends;
