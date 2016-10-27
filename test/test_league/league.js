@@ -10,7 +10,7 @@ const lol = new LeagueofLegends(api_key, 'na');
 
 describe('League', function() {
   describe('#league', function() {
-    it('should retrieve a list of the specified summoners league', function() {
+    it('should retrieve league info of the specified summoners', function() {
       return lol.league('48641392').then((result) => {
         let key = Object.keys(result)[0];
         assert.equal(result[key][0].participantId, '48641392');

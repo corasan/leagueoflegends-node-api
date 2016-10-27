@@ -35,7 +35,7 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 0.8.0):
+This is what I have so far (version 0.9.0):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner`
   - [x] Find a summoner using the id - `summonerById`
@@ -52,3 +52,5 @@ This is what I have so far (version 0.8.0):
 Working on:
 
 - [ ] **league-v2.5**
+  - [x] Retrieve league info of the specified summoners - `league`
+  - [ ] Get a league entries for the given summoners
