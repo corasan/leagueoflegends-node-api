@@ -35,7 +35,7 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 0.9.0):
+This is what I have so far (version 0.10.0):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner`
   - [x] Find a summoner using the id - `summonerById`
@@ -47,10 +47,12 @@ This is what I have so far (version 0.9.0):
   - [x] Get summary of specified summoner stats - `statsSummary`
 
 - [x] **matchlist-v2.2**
-  - [x] Retrieve match list by summoner id - `matchList`
+  - [x] Get match list by summoner id - `matchList`
 
 Working on:
 
 - [ ] **league-v2.5**
-  - [x] Retrieve league info of the specified summoners - `league`
-  - [ ] Get a league entries for the given summoners
+  - [x] Get league info of the given summoner IDs - `league`
+  - [x] Get league entries of the given summoner IDs - `leagueEntries`
+  - [ ] Get league info of the given team IDs
+  - [ ] Get league entries of the given team IDs
