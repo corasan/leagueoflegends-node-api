@@ -54,5 +54,5 @@ Working on:
 - [ ] **league-v2.5**
   - [x] Get league info of the given summoner IDs - `league`
   - [x] Get league entries of the given summoner IDs - `leagueEntries`
-  - [ ] Get league info of the given team IDs
-  - [ ] Get league entries of the given team IDs
+  - [ ] Get Master tier league
+  - [ ] Get Challenger tier league
