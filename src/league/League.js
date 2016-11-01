@@ -16,3 +16,10 @@ classRef.leagueEntries = function(summonerIds) {
     json: true
   });
 }
+
+classRef.master = function(type) {
+  return request({
+    uri: `https://${this.region}.${url}/${this.region}/v2.5/league/master?type=${type}&api_key=${this.api_key}`,
+    json: true
+  });
+}

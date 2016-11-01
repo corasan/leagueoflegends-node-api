@@ -27,4 +27,12 @@ describe('League', function() {
       })
     });
   });
+
+  describe('#master', function() {
+    it('should retrieve master tier league', function() {
+      return lol.master('RANKED_SOLO_5x5').then((result) => {
+        assert.ok(result.entries);
+      });
+    });
+  });
 });
