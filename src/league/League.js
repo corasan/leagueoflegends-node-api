@@ -23,3 +23,10 @@ classRef.master = function(type) {
     json: true
   });
 }
+
+classRef.challenger = function(type) {
+  return request({
+    uri: `https://${this.region}.${url}/${this.region}/v2.5/league/challenger?type=${type}&api_key=${this.api_key}`,
+    json: true
+  });
+}

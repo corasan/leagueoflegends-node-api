@@ -35,4 +35,12 @@ describe('League', function() {
       });
     });
   });
+
+  describe('#challenger', function() {
+    it('should retrieve challenger tier league', function() {
+      return lol.master('RANKED_SOLO_5x5').then((result) => {
+        assert.ok(result.entries);
+      });
+    });
+  });
 });
