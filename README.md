@@ -49,10 +49,15 @@ This is what I have so far (version 0.12.0):
 - [x] **matchlist-v2.2**
   - [x] Get match list by summoner id - `matchList`
 
-Working on:
-
 - [x] **league-v2.5**
   - [x] Get league info of the given summoner IDs - `league`
   - [x] Get league entries of the given summoner IDs - `leagueEntries`
   - [x] Get Master tier league - `master`
   - [x] Get Challenger tier league - `challenger`
+
+Working on:
+
+- [ ] **Game**
+  - [ ] **game-v1.3**
+  - [ ] **featured-games-v1.0**
+  - [ ] **current-game-v1.0**
