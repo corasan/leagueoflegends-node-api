@@ -35,7 +35,7 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 0.14.0):
+This is what I have so far (version 0.15.0):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner`
   - [x] Find a summoner using the id - `summonerById`
@@ -55,9 +55,9 @@ This is what I have so far (version 0.14.0):
   - [x] Get Master tier league - `master`
   - [x] Get Challenger tier league - `challenger`
 
-Working on:
-
-- [ ] **Game**
+- [x] **Game**
   - [x] **game-v1.3**
   - [x] **featured-games-v1.0**
-  - [ ] **current-game-v1.0**
+  - [x] **current-game-v1.0**
+
+Working on:
