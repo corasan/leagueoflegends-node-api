@@ -24,4 +24,10 @@ describe('Games', function() {
       });
     });
   });
+
+  describe('#currentGame', function() {
+    it('should get current game info for the given summoner id', function() {
+      
+    });
+  });
 });

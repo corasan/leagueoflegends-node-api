@@ -2,6 +2,7 @@
 const request = require('request-promise');
 const LeagueofLegends = require('../LeagueofLegends');
 const url = 'api.pvp.net/api/lol';
+const obeserverUrl = 'api.pvp.net/observer-mode/rest';
 const classRef = LeagueofLegends.prototype;
 
 classRef.game = function(summonerId) {
@@ -14,7 +15,14 @@ classRef.game = function(summonerId) {
 
 classRef.featuredGames = function() {
   return request({
-    uri: `https://${this.region}.api.pvp.net/observer-mode/rest/featured?api_key=${this.api_key}`,
+    uri: `https://${this.region}.${obeserverUrl}/featured?api_key=${this.api_key}`,
+    json: true
+  });
+}
+
+classRef.currentGame = function(platformId, summonerId) {
+  return request({
+    uri: `https://${this.region}.${obeserverUrl}/consumer/getSpectatorGameInfo/${platformId}/${summonerId}?api_key=${this.api_key}`,
     json: true
   });
 }
