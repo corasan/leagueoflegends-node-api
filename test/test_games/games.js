@@ -16,4 +16,12 @@ describe('Games', function() {
       });
     });
   });
+
+  describe('#featuredGames', function() {
+    it('should get list of featured games', function() {
+      return lol.featuredGames().then((result) => {
+        assert.ok(result.gameList);
+      });
+    });
+  });
 });

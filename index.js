@@ -6,6 +6,6 @@ require('./src/player/Summoner');
 require('./src/player/Stats');
 require('./src/match/Match');
 require('./src/league/League');
-require('./src/games/Game');
+require('./src/games/Games');
 
 module.exports = LeagueofLegends;

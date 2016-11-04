@@ -11,3 +11,10 @@ classRef.game = function(summonerId) {
     json: true
   });
 }
+
+classRef.featuredGames = function() {
+  return request({
+    uri: `https://${this.region}.api.pvp.net/observer-mode/rest/featured?api_key=${this.api_key}`,
+    json: true
+  });
+}
