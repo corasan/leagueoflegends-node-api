@@ -1,3 +1,4 @@
+'use strict';
 // stats-v1.3
 const request = require('request-promise');
 const LeagueofLegends = require('../LeagueofLegends');

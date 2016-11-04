@@ -1,3 +1,4 @@
+'use strict';
 // summoner-v1.4
 const request = require('request-promise');
 const LeagueofLegends = require('../LeagueofLegends');
