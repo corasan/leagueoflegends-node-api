@@ -1,7 +1,7 @@
 # League of Legends API
 League of Legends Node.js unofficial API. Easier way to use the official [Riot API](https://developer.riotgames.com/).
 
-Checkout the full detailed, easy to read documentation [here](https://corasan.gitbooks.io/league-of-legends-api/content/)
+[Full documentation](https://corasan.gitbooks.io/league-of-legends-api/content/)
 
 ## Installation
 `npm i --save leagueoflegends-api`
@@ -35,8 +35,6 @@ You will get an object like this:
 }
 ```
 **Note:** All functions return a `Promise`.
-
-[Full documentation](https://corasan.gitbooks.io/league-of-legends-api/content/)
 
 ## Progress
 This is what I have so far (version 0.15.3):
