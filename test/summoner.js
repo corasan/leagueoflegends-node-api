@@ -27,18 +27,18 @@ describe('Summoner', function() {
     });
   });
 
-  describe('#summonerById', function() {
+  describe('#findSummonerById', function() {
     it('should find a summoner by ID', function() {
-      return lol.summonerById('48641392').then((result) => {
+      return lol.findSummonerById('48641392').then((result) => {
         let key = Object.keys(result)[0];
         assert.equal(result[key].name, 'SHP CoraSan');
       });
     });
   });
 
-  describe('#summonerById', function() {
+  describe('#findSummonerById', function() {
     it('should find multiple summoners by a list of IDs', function() {
-      return lol.summonerById(['48641392','36475861']).then((result) => {
+      return lol.findSummonerById(['48641392','36475861']).then((result) => {
         let summoners = Object.keys(result);
         assert.equal(summoners.length, 2);
       });

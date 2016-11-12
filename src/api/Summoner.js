@@ -13,7 +13,7 @@ classRef.findSummoner = function(summonerNames) {
   });
 }
 
-classRef.summonerById = function(summonerIds) {
+classRef.findSummonerById = function(summonerIds) {
   let region = this.region;
   return request({
     uri: `https://${region}.${url}/${region}/v1.4/summoner/${summonerIds}?api_key=${this.api_key}`,
