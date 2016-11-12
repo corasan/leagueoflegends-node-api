@@ -37,12 +37,12 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 0.15.3):
+This is what I have so far (version 0.15.4):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner`
   - [x] Find a summoner using the id - `findSummonerById`
   - [x] Get the specified summoner runes and masteries - `getRunes` and `getMasteries`
-  - [x] Get summoner name using the summoner id - `findSummonerName`
+  - [x] Get summoner name using the summoner id - `getSummonerName`
 
 - [x] **stats-v1.3**
   - [x] Get ranked stats of specified summoner using the summoner id - `statsRanked`
@@ -58,8 +58,8 @@ This is what I have so far (version 0.15.3):
   - [x] Get Challenger tier league - `challenger`
 
 - [x] **Game**
-  - [x] **game-v1.3**
-  - [x] **featured-games-v1.0**
-  - [x] **current-game-v1.0**
+  - [x] game-v1.3
+  - [x] featured-games-v1.0
+  - [x] current-game-v1.0
 
 Working on:
