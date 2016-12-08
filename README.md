@@ -63,6 +63,6 @@ This is what I have so far (version 0.16.0):
   - [x] current-game-v1.0 - `currentGame()`
 
 Working on:
-- [ ] **Champions**
-  - [x] Retrieve all champions
-  - [ ] Retrieve champion by ID
+- [x] **Champions**
+  - [x] Retrieve all champions - `championAll()`
+  - [x] Retrieve champion by ID - `findChampion()`

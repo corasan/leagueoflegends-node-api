@@ -25,4 +25,11 @@ describe('Champion', function() {
     });
   });
 
+  describe('#findChampion', function() {
+    it('should retrieve the given champion', function() {
+      return lol.findChampion('84').then((result) => {
+        assert.equal(result.id, '84');
+      })
+    })
+  });
 });
