@@ -65,7 +65,8 @@ This is what I have so far (version 0.18.0):
   - [x] featured-games-v1.0 - `featuredGames()`
   - [x] current-game-v1.0 - `currentGame(summonerId, platformId)`
 
-Working on:
 - [x] **champion v1.2**
   - [x] Retrieve all champions - `championAll(freeToPlay)`
   - [x] Retrieve champion by ID - `findChampion(championId)`
+
+Working on:
