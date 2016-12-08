@@ -37,29 +37,32 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 0.15.4):
+This is what I have so far (version 0.15.5):
 - [x] **summoner-v1.4**
-  - [x] Find a summoner using the summoner name - `findSummoner`
-  - [x] Find a summoner using the id - `findSummonerById`
-  - [x] Get the specified summoner runes and masteries - `getRunes` and `getMasteries`
-  - [x] Get summoner name using the summoner id - `getSummonerName`
+  - [x] Find a summoner using the summoner name - `findSummoner()`
+  - [x] Find a summoner using the id - `findSummonerById()`
+  - [x] Get the specified summoner runes and masteries - `getRunes()` and `getMasteries()`
+  - [x] Get summoner name using the summoner id - `getSummonerName()`
 
 - [x] **stats-v1.3**
-  - [x] Get ranked stats of specified summoner using the summoner id - `statsRanked`
-  - [x] Get summary of specified summoner stats - `statsSummary`
+  - [x] Get ranked stats of specified summoner using the summoner id - `statsRanked()`
+  - [x] Get summary of specified summoner stats - `statsSummary()`
 
 - [x] **matchlist-v2.2**
-  - [x] Get match list by summoner id - `matchList`
+  - [x] Get match list by summoner id - `matchList()`
 
 - [x] **league-v2.5**
-  - [x] Get league info of the given summoner IDs - `league`
-  - [x] Get league entries of the given summoner IDs - `leagueEntries`
-  - [x] Get Master tier league - `master`
-  - [x] Get Challenger tier league - `challenger`
+  - [x] Get league info of the given summoner IDs - `league()`
+  - [x] Get league entries of the given summoner IDs - `leagueEntries()`
+  - [x] Get Master tier league - `master()`
+  - [x] Get Challenger tier league - `challenger()`
 
 - [x] **Game**
-  - [x] game-v1.3
-  - [x] featured-games-v1.0
-  - [x] current-game-v1.0
+  - [x] game-v1.3 - `game()`
+  - [x] featured-games-v1.0 - `featuredGames()`
+  - [x] current-game-v1.0 - `currentGame()`
 
 Working on:
+- [ ] **Champions**
+  - [ ] Retrieve all champions
+  - [ ] Retrieve champion by ID

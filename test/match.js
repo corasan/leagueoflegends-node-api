@@ -5,7 +5,7 @@ require('dotenv').config();
 const assert = require('assert');
 const api_key = process.env.LOL_API_KEY;
 
-const LeagueofLegends = require('../../index');
+const LeagueofLegends = require('../index');
 const lol = new LeagueofLegends(api_key, 'na');
 
 describe('Match', function() {

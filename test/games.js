@@ -5,7 +5,7 @@ require('dotenv').config();
 const assert = require('assert');
 const api_key = process.env.LOL_API_KEY;
 
-const LeagueofLegends = require('../../index');
+const LeagueofLegends = require('../index');
 const lol = new LeagueofLegends(api_key, 'na');
 
 describe('Games', function() {
@@ -27,7 +27,7 @@ describe('Games', function() {
 
   describe('#currentGame', function() {
     it('should get current game info for the given summoner id', function() {
-      
+
     });
   });
 });
