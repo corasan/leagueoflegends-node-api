@@ -4,7 +4,7 @@ League of Legends Node.js unofficial API. Easier way to use the official [Riot A
 [Full documentation](https://corasan.gitbooks.io/league-of-legends-api/content/)
 
 ## Installation
-`npm i --save leagueoflegends-api`
+`npm i --save leagueoflegends-node-api`
 
 ## Basic Usage
 This is a basic example on how to use the API, soon I will have full documentation covering how to use every function available.
