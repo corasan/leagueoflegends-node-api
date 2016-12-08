@@ -1,6 +1,6 @@
 {
   "name": "leagueoflegends-api",
-  "version": "0.15.5",
+  "version": "0.16.0",
   "description": "League of Legends unofficial api package",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "test-summoner": "mocha --recursive -g Summoner",
     "test-matches": "mocha --recursive -g Match",
     "test-league": "mocha --recursive -g League",
-    "test-games": "mocha --recursive -g Games"
+    "test-games": "mocha --recursive -g Games",
+    "test-champion": "mocha --recursive -g Champion"
   },
   "repository": {
     "type": "git",

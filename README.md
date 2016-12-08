@@ -37,7 +37,7 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 0.15.5):
+This is what I have so far (version 0.16.0):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner()`
   - [x] Find a summoner using the id - `findSummonerById()`
@@ -64,5 +64,5 @@ This is what I have so far (version 0.15.5):
 
 Working on:
 - [ ] **Champions**
-  - [ ] Retrieve all champions
+  - [x] Retrieve all champions
   - [ ] Retrieve champion by ID
