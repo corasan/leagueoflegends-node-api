@@ -37,32 +37,32 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 0.16.0):
+This is what I have so far (version 0.17.1):
 - [x] **summoner-v1.4**
-  - [x] Find a summoner using the summoner name - `findSummoner()`
-  - [x] Find a summoner using the id - `findSummonerById()`
-  - [x] Get the specified summoner runes and masteries - `getRunes()` and `getMasteries()`
-  - [x] Get summoner name using the summoner id - `getSummonerName()`
+  - [x] Find a summoner using the summoner name - `findSummoner(summonerNames)`
+  - [x] Find a summoner using the id - `findSummonerById(summonerIds)`
+  - [x] Get the specified summoner runes and masteries - `getRunes(summonerIds)` and `getMasteries(summonerIds)`
+  - [x] Get summoner name using the summoner id - `getSummonerName(summonerIds)`
 
 - [x] **stats-v1.3**
-  - [x] Get ranked stats of specified summoner using the summoner id - `statsRanked()`
-  - [x] Get summary of specified summoner stats - `statsSummary()`
+  - [x] Get ranked stats of specified summoner using the summoner id - `statsRanked(summonerId, season)`
+  - [x] Get summary of specified summoner stats - `statsSummary(summonerId, season)`
 
 - [x] **matchlist-v2.2**
-  - [x] Get match list by summoner id - `matchList()`
+  - [x] Get match list by summoner id - `matchList(summonerId, queryOptions)`
 
 - [x] **league-v2.5**
-  - [x] Get league info of the given summoner IDs - `league()`
-  - [x] Get league entries of the given summoner IDs - `leagueEntries()`
-  - [x] Get Master tier league - `master()`
-  - [x] Get Challenger tier league - `challenger()`
+  - [x] Get league info of the given summoner IDs - `league(summonerIds)`
+  - [x] Get league entries of the given summoner IDs - `leagueEntries(summonerIds)`
+  - [x] Get Master tier league - `master(type)`
+  - [x] Get Challenger tier league - `challenger(type)`
 
 - [x] **Game**
-  - [x] game-v1.3 - `game()`
+  - [x] game-v1.3 - `game(summonerId)`
   - [x] featured-games-v1.0 - `featuredGames()`
-  - [x] current-game-v1.0 - `currentGame()`
+  - [x] current-game-v1.0 - `currentGame(summonerId, platformId)`
 
 Working on:
 - [x] **Champions**
-  - [x] Retrieve all champions - `championAll()`
-  - [x] Retrieve champion by ID - `findChampion()`
+  - [x] Retrieve all champions - `championAll(freeToPlay)`
+  - [x] Retrieve champion by ID - `findChampion(championId)`

@@ -20,7 +20,7 @@ classRef.featuredGames = function() {
   });
 }
 
-classRef.currentGame = function(platformId, summonerId) {
+classRef.currentGame = function(summonerId, platformId) {
   return request({
     uri: `https://${this.region}.${obeserverUrl}/consumer/getSpectatorGameInfo/${platformId}/${summonerId}?api_key=${this.api_key}`,
     json: true
