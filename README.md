@@ -37,7 +37,7 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 0.17.1):
+This is what I have so far (version 0.18.0):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner(summonerNames)`
   - [x] Find a summoner using the id - `findSummonerById(summonerIds)`
@@ -51,6 +51,9 @@ This is what I have so far (version 0.17.1):
 - [x] **matchlist-v2.2**
   - [x] Get match list by summoner id - `matchList(summonerId, queryOptions)`
 
+- [x] **match v2.2**
+  - [x] Retrieve match by match ID - `match(matchId)`
+
 - [x] **league-v2.5**
   - [x] Get league info of the given summoner IDs - `league(summonerIds)`
   - [x] Get league entries of the given summoner IDs - `leagueEntries(summonerIds)`
@@ -63,6 +66,6 @@ This is what I have so far (version 0.17.1):
   - [x] current-game-v1.0 - `currentGame(summonerId, platformId)`
 
 Working on:
-- [x] **Champions**
+- [x] **champion v1.2**
   - [x] Retrieve all champions - `championAll(freeToPlay)`
   - [x] Retrieve champion by ID - `findChampion(championId)`

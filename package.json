@@ -1,13 +1,13 @@
 {
   "name": "leagueoflegends-api",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "description": "League of Legends unofficial api package",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive",
     "test-stats": "mocha --recursive -g Stats",
     "test-summoner": "mocha --recursive -g Summoner",
-    "test-matches": "mocha --recursive -g Match",
+    "test-match": "mocha --recursive -g Match",
     "test-league": "mocha --recursive -g League",
     "test-games": "mocha --recursive -g Games",
     "test-champion": "mocha --recursive -g Champion"
