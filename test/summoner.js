@@ -65,7 +65,7 @@ describe('Summoner', function() {
 
   describe('#summonerName', function() {
     it('should get the summoner masteries', function() {
-      return lol.findSummonerName('48641392').then((result) => {
+      return lol.getSummonerName('48641392').then((result) => {
         assert.equal(result['48641392'], 'SHP CoraSan');
       });
     });
