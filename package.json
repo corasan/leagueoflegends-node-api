@@ -4,7 +4,6 @@
   "description": "League of Legends unofficial api package",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive",
     "test-stats": "mocha --recursive -g Stats",
     "test-summoner": "mocha --recursive -g Summoner",
     "test-match": "mocha --recursive -g Match",
