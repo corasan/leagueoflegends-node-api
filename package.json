@@ -1,6 +1,6 @@
 {
   "name": "leagueoflegends-api",
-  "version": "0.18.1",
+  "version": "1.0.0",
   "description": "League of Legends unofficial api package",
   "main": "index.js",
   "scripts": {
