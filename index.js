@@ -1,6 +1,3 @@
-require('dotenv').config();
-const api_key = process.env.LOL_API_KEY;
-
 const LeagueofLegends = require('./src/LeagueofLegends');
 require('./src/api/Summoner');
 require('./src/api/Stats');
