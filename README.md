@@ -37,7 +37,7 @@ You will get an object like this:
 **Note:** All functions return a `Promise`.
 
 ## Progress
-This is what I have so far (version 1.0.0):
+This is what I have so far (version 1.0.1):
 - [x] **summoner-v1.4**
   - [x] Find a summoner using the summoner name - `findSummoner(summonerNames)`
   - [x] Find a summoner using the id - `findSummonerById(summonerIds)`
