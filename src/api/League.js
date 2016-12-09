@@ -5,7 +5,7 @@ const url = 'api.pvp.net/api/lol';
 const classRef = LeagueofLegends.prototype;
 
 classRef.leagues = function(summonerIds) {
-  let region = region;
+  let region = this.region;
   return request({
     uri: `https://${region}.${url}/${region}/v2.5/league/by-summoner/${summonerIds}?api_key=${this.api_key}`,
     json: true
@@ -13,7 +13,7 @@ classRef.leagues = function(summonerIds) {
 }
 
 classRef.leagueEntries = function(summonerIds) {
-  let region = region;
+  let region = this.region;
   return request({
     uri: `https://${region}.${url}/${region}/v2.5/league/by-summoner/${summonerIds}/entry?api_key=${this.api_key}`,
     json: true
@@ -21,7 +21,7 @@ classRef.leagueEntries = function(summonerIds) {
 }
 
 classRef.master = function(type) {
-  let region = region;
+  let region = this.region;
   return request({
     uri: `https://${region}.${url}/${region}/v2.5/league/master?type=${type}&api_key=${this.api_key}`,
     json: true
@@ -29,7 +29,7 @@ classRef.master = function(type) {
 }
 
 classRef.challenger = function(type) {
-  let region = region;
+  let region = this.region;
   return request({
     uri: `https://${region}.${url}/${region}/v2.5/league/challenger?type=${type}&api_key=${this.api_key}`,
     json: true
