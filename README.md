@@ -70,3 +70,9 @@ This is what I have so far (version 0.18.0):
   - [x] Retrieve champion by ID - `findChampion(championId)`
 
 Working on:
+
+- [ ] **championmastery**
+- [ ] **lol-static-data-v1.2**
+- [ ] **lol-status-v1.0**
+ 
+ 
