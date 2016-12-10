@@ -1,7 +1,7 @@
 # League of Legends API
 [![npm version](https://badge.fury.io/js/leagueoflegends-api.svg)](https://badge.fury.io/js/leagueoflegends-api)
 
-League of Legends Node.js unofficial API. Easier way to use the official [Riot API](https://developer.riotgames.com/).
+Npm package for the official [League of Legends API](https://developer.riotgames.com/).
 
 [Full documentation](https://corasan.gitbooks.io/league-of-legends-api/content/)
 
