@@ -1,7 +1,7 @@
 {
   "name": "leagueoflegends-api",
   "version": "1.0.4",
-  "description": "League of Legends unofficial api package",
+  "description": "Npm package for the official League of Legends API.",
   "main": "index.js",
   "scripts": {
     "test-stats": "mocha --recursive -g Stats",
