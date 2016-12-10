@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/corasan/leagueoflegends-sdk.git"
+    "url": "git+https://github.com/corasan/leagueoflegends-node-api.git"
   },
   "keywords": [
     "league",
@@ -28,9 +28,9 @@
   "author": "Henry Paulino <henrypl360@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/corasan/leagueoflegends-api/issues"
+    "url": "https://github.com/corasan/leagueoflegends-node-api/issues"
   },
-  "homepage": "https://github.com/corasan/leagueoflegends-api#readme",
+  "homepage": "https://github.com/corasan/leagueoflegends-node-api#readme",
   "dependencies": {
     "lodash": "^4.16.4",
     "request": "^2.79.0",
