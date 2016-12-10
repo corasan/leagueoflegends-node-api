@@ -1,6 +1,6 @@
 {
   "name": "leagueoflegends-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "League of Legends unofficial api package",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,7 @@
   "homepage": "https://github.com/corasan/leagueoflegends-api#readme",
   "dependencies": {
     "lodash": "^4.16.4",
+    "request": "^2.79.0",
     "request-promise": "^4.1.1"
   },
   "devDependencies": {
