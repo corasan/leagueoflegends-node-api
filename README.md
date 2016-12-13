@@ -48,7 +48,7 @@ Version 1.0.2 supports the following APIs:
 - [x] **Game**
 - [x] **champion v1.2**
 
-Comming soon:
+Coming soon:
 
 - [ ] **championmastery**
 - [ ] **lol-static-data-v1.2**
